@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airbnb.android</groupId>
+  <artifactId>airmapview</artifactId>
+  <version>1.1.0-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>Airmapview library</name>
+  <description>A library to enable map user interfaces for device with and without Google Play Services</description>
+  <url>https://github.com/airbnb/airmapview/tree/new-scv</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/airbnb/airmapview/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>airbnb</id>
+      <name>Airbnb</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:airbnb/airmapview.git</connection>
+    <developerConnection>scm:git@github.com:airbnb/airmapview.git</developerConnection>
+    <url>https://github.com/airbnb/airmapview/tree/new-scv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>6.5.87</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
